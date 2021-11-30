@@ -48,7 +48,7 @@
                                         </ul>
                                     </li>
                                     <!-- End of Dropdown level-2 -->
-                                    <li><a class="dropdown-item" href="media-credentials.html">Media</a>
+                                    <li><a class="dropdown-item" href="media-credentials.php">Media</a>
                                     </li>
                                     <li><a class="dropdown-item" href="#">Vendor</a></li>
                                 </ul>
