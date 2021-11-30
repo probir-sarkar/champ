@@ -1,0 +1,285 @@
+/* Font Family */
+@font-face {
+  font-family: myFirstFont;
+  src: url("sd-prostreet.woff");
+}
+.myFirstFont , .myFirstFont a {
+  font-family: myFirstFont;
+  color: #b7b7b7;
+}
+.myFirstFont:hover {
+  color: #d33;
+}
+/* End of Font Family */
+
+/* NavBar CSS */
+
+#main-navbar .dropdown:hover > .dropdown-menu {
+  display: block;
+  background-color: #121212;
+  margin-top: 0;
+}
+/* Nav bar submenu styles */
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #121212 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+.mobile-nav-btn{
+ display: flex;
+align-items: center;
+}
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
+
+/* End of NavBar CSS */
+
+
+/* Global Css */
+body,.body-bg{
+background-color: #121212;
+}
+.footer-menu li{
+  display: inline;
+}
+.footer-menu li a{
+  color: #e50e07;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+.nav-icon li i{
+font-size: 1.5rem;
+margin-right: 5%;
+}
+.footer-menu li a{
+  text-decoration: none;
+}
+.footer-icon a i{
+  color: #b7b7b7;
+}
+.nav-dropdown-font div ul li ul a,.nav-dropdown-font div ul li div a{
+  font-family: "Lato",sans-serif;
+  text-transform: capitalize;
+  font-size: 1rem;
+  background-color: black !important;
+}
+#footer-section{
+  border-top: 5px solid #e50e07;
+}
+/* End of Global CSS */
+
+/* CSS for Desktop Screen */
+@media only screen and (min-width: 960px) {
+  #section-4 .col-lg-6 {
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-family: myFirstFont;
+}
+.width-95 {
+  max-width: 95%;
+}
+#event-bar{
+  padding: 0%;
+}
+#section-3 .col-lg-2 {
+  -ms-flex: 0 0 19%;
+  flex: 0 0 19%;
+  max-width: 19%;
+}
+#section-3 .col-lg-2 img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-out !important;
+}}
+/* End of CSS for Desktop Screen */
+
+/* CSS for Mobile Screen */
+@media (max-width: 960px) {
+h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-family: myFirstFont;
+}
+  #section-1{
+  background-image: url("../BACKGROUND_GEENERIC_001.jpg");
+  background-position: right;
+  overflow: hidden;
+  margin-top: 10%;
+}
+#section-1 .col-lg-2{
+  max-width: 50%;
+}
+.mobile-hide{
+  display: none;
+}
+.title-text{
+  transform: scale(1.7);
+}
+}
+/* End of CSS for Mobile Screen */
+
+.nav-bg-font {
+  font-family: "myFirstFont";
+  background-color: #121212;
+  font-size: 24px;
+  color: white;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  line-height: 1;
+}
+.nav-bg-font a {
+  color: #b7b7b7;
+  text-transform: uppercase;
+  opacity: 1;
+  padding-left: 1rem !important;
+}
+.nav-bg-font a:hover {
+  color: #d33;
+}
+.fixed-div {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
+
+.nav-bg {
+  background-color: #121212;
+}
+
+.nav-bg-font .row {
+  width: 90%;
+}
+
+.poster {
+  background-image: url("../BACKGROUND_GEENERIC_001.jpg");
+}
+.inner {
+  position: absolute;
+}
+img {
+  width: 100%;
+}
+
+.btn-nav {
+  color: #e1e1e1;
+  background-color: #121212;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 1px 4px #000;
+}
+.brand-logo-img {
+  position: absolute;
+  margin-top: -10%;
+  transform: scale(1.2);
+}
+
+body {
+  width: auto;
+}
+
+/* @media (max-width: 1100px) {
+  .hide-on-mobile {
+    display: none;
+  }
+} */
+/* .navbar-btn-toggle{
+border: 0;
+padding: .458em .625em;
+text-shadow: 0 1px 1px rgba(0,0,0,.75);
+color: #bbb;
+background-color: #0a0a0a;
+border-radius: 4px;
+box-shadow: inset 0 1px 4px rgba(0,0,0,.95);
+-webkit-transition: box-shadow .3s ease,color .3s ease,background-color .3s ease;
+transition: box-shadow .3s ease,color .3s ease,background-color .3s ease;
+} */
+
+#event-bar img:hover {
+  margin-top: -20px !important;
+  opacity: 1;
+  transition: all 0.5s ease-out !important;
+}
+
+/* For left to right animation */
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slideup {
+  animation-duration: 3s;
+  animation-name: slideup;
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.dark-body-bg {
+  background-color: #101010;
+  z-index: 1;
+}
+
+#section-4 h5 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.div-link:hover {
+  text-decoration: none;
+}
+
+
+.div-link {
+  border: 1px solid #000;
+  padding: 5px 5px 0;
+  background-color: #0c0c0c;
+  border-radius: 3px;
+  box-shadow: inset 0 -0.125em 0.5em 0 rgba(0, 0, 0, 0.85),
+    0 3px 2px -2px rgba(255, 255, 255, 0.075);
+  transform: translate3d(0, 0, 0);
+}
