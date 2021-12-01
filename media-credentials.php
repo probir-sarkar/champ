@@ -244,16 +244,13 @@
                     </div>
                     <!--  End of Terms and conditions -->
                     <!-- Submit Button -->
-                    <button type="button" class="submit-btn btn ">Primary</button>
+                    <button type="button" class="submit-btn btn ">SEND</button>
                 </form>
             </div>
 
         </div>
     </div>
-
-<div class="container-fluid buttom-divider">
-    
-</div>
+<?php include 'components/divider.php'; ?>
     <?php include 'components/footer.php' ;?>
 </body>
 

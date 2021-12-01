@@ -1,13 +1,13 @@
-#media-form .form-control {
+#vendor-form .form-control {
   background-color: #242424;
   border: 1px solid black;
 }
-#media-form .form-control:active,
-#media-form .form-control:focus,
-#media-form .form-control:focus-within {
+#vendor-form .form-control:active,
+#vendor-form .form-control:focus,
+#vendor-form .form-control:focus-within {
   box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
 }
-#media-form input{
+#vendor-form input ,#vendor-form select {
     margin-bottom: 20px;
 }
 .submit-btn{

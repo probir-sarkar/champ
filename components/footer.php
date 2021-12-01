@@ -1,4 +1,9 @@
-    <footer class="d-flex">
+ <style>
+     .footer-shadow{
+     box-shadow: inset 0 1px 0 0 rgb(255 255 255 / 8%);}
+ </style>
+ 
+ <footer class="d-flex footer-shadow">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center mt-lg-2">
                 <ul class="footer-menu mb-2">

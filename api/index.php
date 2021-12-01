@@ -1,7 +1,7 @@
 <?php
 require_once 'insta-api.php';
 
-$accessToken = 'IGQVJYenBWbHlrTHdWZAG5DdFg5d2ZAXeUxvN3FXX1ptSE43U1ZALLVFDN2FvRXpfSWZAFV2ZA6TExzSmUxVzJjVElhUmtsVlNKVXRkMEY5dXdjTHd3OGxVYzgyZA3hqbWVRRk94bi1rN3EwaUlVX3dDSExYcwZDZD';
+$accessToken = 'IGQVJWalhEVVF1V2hKajc3NnRwQmhkZA3E4cmdiODRGQVB0N256SjVNRGdoOENSR19ZAQ3lTNFlIaFBrYlpOd2ZAmRjhHU0k1RDNBMXJ1ektXVFRDQ2RmZADBaVG5Qc28zckZAoZAGI1Ym94bkhuRHZA6ZA0lOTQZDZD';
 
 $params = array(
     'get_code' => isset($_GET['code']) ? $_GET['code'] : '',
@@ -99,7 +99,6 @@ $mediaChildren = $ig->getMediaChildren($highlightedPostId);
 			</li>
 		<?php endforeach;?>
 	</ul>
-	<?php $usersMediaNext = $ig->getPaging($usersMedia['paging']['next']);?>
 	<h3>Users Media Page 2 (<?php echo count($usersMediaNext['data']); ?>)</h3>
 	<h4>Raw Data</h4>
 	<textarea style="width:100%;height:400px;"><?php print_r($usersMediaNext);?></textarea>

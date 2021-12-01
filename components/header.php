@@ -50,7 +50,7 @@
                                     <!-- End of Dropdown level-2 -->
                                     <li><a class="dropdown-item" href="media-credentials.php">Media</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Vendor</a></li>
+                                    <li><a class="dropdown-item" href="vendor.php">Vendor</a></li>
                                 </ul>
                             </li>
                             <!-- Dropdown level-1 -->
@@ -127,4 +127,6 @@
             <!--   Show this only lg screens and up   -->
         </div>
     </nav>
-<script src="..\js\submenu.js"></script>
+    <div class="d-lg-none d-sm-block py-5 container-fluid buttom-divider">
+</div>
+    <script src="..\js\submenu.js"></script>
