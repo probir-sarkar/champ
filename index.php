@@ -95,13 +95,13 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-2"><img class="img-fluid d-block"
                         src="players/1/STANDINGS_TEMPLATE_WEB_CHAMP2021-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/1/STANDINGS_TEMPLATE_WEB_CHAMP20212-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/1/STANDINGS_TEMPLATE_WEB_CHAMP20213-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/1/STANDINGS_TEMPLATE_WEB_CHAMP20214-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/1/STANDINGS_TEMPLATE_WEB_CHAMP20215-2.jpg"></div>
             </div>
             <div class="row my-lg-4">
@@ -113,13 +113,13 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-2"><img class="img-fluid d-block"
                         src="players/2/STANDINGS_TEMPLATE_WEB_CHAMP20216-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/2/STANDINGS_TEMPLATE_WEB_CHAMP20217-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/2/STANDINGS_TEMPLATE_WEB_CHAMP20218-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/2/STANDINGS_TEMPLATE_WEB_CHAMP20219-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/2/STANDINGS_TEMPLATE_WEB_CHAMP202110-2.jpg"></div>
             </div>
             <div class="row my-lg-4">
@@ -131,13 +131,13 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-2"><img class="img-fluid d-block"
                         src="players/3/STANDINGS_TEMPLATE_WEB_CHAMP202111-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/3/STANDINGS_TEMPLATE_WEB_CHAMP202112-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/3/STANDINGS_TEMPLATE_WEB_CHAMP202113-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/3/STANDINGS_TEMPLATE_WEB_CHAMP202114-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/3/STANDINGS_TEMPLATE_WEB_CHAMP202115-2.jpg"></div>
             </div>
             <div class="row my-lg-4">
@@ -149,13 +149,13 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-2"><img class="img-fluid d-block"
                         src="players/4/STANDINGS_TEMPLATE_WEB_CHAMP202116-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/4/STANDINGS_TEMPLATE_WEB_CHAMP202117-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/4/STANDINGS_TEMPLATE_WEB_CHAMP202118-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/4/STANDINGS_TEMPLATE_WEB_CHAMP202119-2.jpg"></div>
-                <div class="col-lg-2 col-xs-6"><img class="img-fluid d-block"
+                <div class="col-xs-6 col-lg-2"><img class="img-fluid d-block"
                         src="players/4/STANDINGS_TEMPLATE_WEB_CHAMP202120-3.jpg"></div>
             </div>
             <div class="row my-lg-4">
