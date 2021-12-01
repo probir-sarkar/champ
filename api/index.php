@@ -1,7 +1,7 @@
 <?php
 require_once 'insta-api.php';
 
-$accessToken = 'ACCESS-TOKEN';
+$accessToken = 'IGQVJYenBWbHlrTHdWZAG5DdFg5d2ZAXeUxvN3FXX1ptSE43U1ZALLVFDN2FvRXpfSWZAFV2ZA6TExzSmUxVzJjVElhUmtsVlNKVXRkMEY5dXdjTHd3OGxVYzgyZA3hqbWVRRk94bi1rN3EwaUlVX3dDSExYcwZDZD';
 
 $params = array(
     'get_code' => isset($_GET['code']) ? $_GET['code'] : '',
