@@ -15,12 +15,12 @@
     <!-- Nav end Here -->
     <!-- Section-4 -->
     <div class="container-fluid" id="section-1">
-        <div class="row d-flex  mt-4">
+        <div class="row d-flex ">
             <div class="col-lg-12 p-0 m-0 inner mobile-hide">
                 <img src="BACKGROUND_GEENERIC_001.jpg"></div>
             <div class="col-lg-12 p-0 m-0 inner mobile-hide">
                 <img class="slidein" src="BACKGROUND_GEENERIC_003.png"></div>
-            <div class="col-lg-12 mt-5 title-text">
+            <div class="col-lg-12 title-text">
                 <img src="NATIONAL_TOUR_001-1.png">
             </div>
         </div>
