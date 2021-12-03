@@ -13,9 +13,6 @@
 			  e.stopPropagation();
 			});
 		})
-
-
-
 		// make it as accordion for smaller screens
 		if (window.innerWidth < 992) {
 

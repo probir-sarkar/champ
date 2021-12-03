@@ -58,7 +58,7 @@
 
                     <div class="mt-3"><label><b>Event</b></label>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" name="antigo">
+                            <input class="form-check-input" type="checkbox" name="antigo">
                             <label class="form-check-label" for="antigo">
                                 Antigo, WI
                             </label>

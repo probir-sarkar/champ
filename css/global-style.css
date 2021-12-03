@@ -23,11 +23,8 @@
 
 
 /* NavBar CSS */
-
-#main-navbar .dropdown:hover > .dropdown-menu {
-  display: block;
-  background-color: #121212;
-  margin-top: 0;
+#main-navbar .dropdown-menu,#main-navbar .dropdown-menu{
+  letter-spacing: normal;
 }
 /* Nav bar submenu styles */
 
@@ -100,6 +97,7 @@ margin-right: 5%;
   text-transform: capitalize;
   font-size: 1rem;
   background-color: black !important;
+  letter-spacing: normal;
 }
 #footer-section{
   border-top: 5px solid #e50e07;

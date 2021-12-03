@@ -32,6 +32,10 @@
                                         </a>
                                         <ul class="submenu dropdown-menu body-bg">
                                             <li>
+                                        <a class="dropdown-item d-lg-none d-block" href="<?php echo $path ?>national-events.php">
+                                            Events</li>
+                                        </a>
+                                            <li>
                                                 <a class="dropdown-item" href="<?php echo $path ?>events/antigo.php">Antigo off-road National</a>
                                             </li>
                                             <li>
