@@ -21,7 +21,7 @@ css\global-style.css">
             <div class="col-lg-12 mt-5">
                 <div class="row">
                     <!-- 1 -->
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 grayscale">
                         <a href="<?php echo $path; ?>events/antigo.php">
                             <img src="<?php echo $path; ?>poster/01-ANTIGO.png">
                         </a>
@@ -56,7 +56,7 @@ css\global-style.css">
                     </div>
 
                     <!-- 6 -->
-                    <div class="col-lg-2 grayscale">
+                    <div class="col-lg-2">
                         <a href="<?php echo $path; ?>events/cradon-int.php">
                         <img src="<?php echo $path; ?>poster/CHAMPOFFROAD_EVENT_TILE_06_CRANDON.png">
                         </a>
@@ -66,7 +66,7 @@ css\global-style.css">
         </div>
     </div>
     <div class="container-fluid p-0 event-notice mt-5">
-        <img src="<?php echo $path ?>images\events\EVENT_HEADER_01_ANTIGO.jpg" class="img-fluid">
+        <img src="<?php echo $path ?>images\events\EVENT_HEADER_06_CRANDON.jpg" class="img-fluid">
     </div>
 
     <!-- Countdown -->

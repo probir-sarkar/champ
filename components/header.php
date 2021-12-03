@@ -122,4 +122,4 @@
     </nav>
     <div class=" py-5 container-fluid buttom-divider">
 </div>
-    <script src="<?php echo $path ?>..\js\submenu.js"></script>
+    <script src="<?php echo $path ?>js\submenu.js"></script>
