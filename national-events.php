@@ -53,6 +53,4 @@
     </div>
 
 </body>
-<script src="js\submenu.js"></script>
-
 </html>

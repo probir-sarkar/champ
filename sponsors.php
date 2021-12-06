@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sponsors | AMSOL Championship Off-Road</title>
     <?php include 'components/bootstrap.php';?>
     <link rel="stylesheet" href="css\global-style.css">
     <link rel="stylesheet" href="css\sponsors.css">
@@ -13,31 +13,30 @@
 
 <body>
     <?php include 'components/header.php'; ?>
-    <div class="col-lg-12">
-        <div class="text-center my-5">
-            <button type="button" class="btn btn-light">SHOW HIDE</button>
+    <div class="col-lg-12 text-white">
+        <div class="text-center mt-5">
+            <button class="btn sp-btn" type="button" data-toggle="collapse" data-target="#filterOptions" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-sort"></i> SORT SPONSORS</button>
         </div>
         <div class="row d-flex justify-content-center">
-            
-            <div id="filterOptions" class="text-center w-75">
-                <button type="button" selector="all" class="btn btn-light">ALL</button>
-                <button type="button" selector="amsol" class="btn btn-light">AMSOL</button>
-                <button type="button" selector="bilstein" class="btn btn-light">BILSTEIN</button>
-                <button type="button" selector="chirs-car-online" class="btn btn-light">CHRISTIAN CARS ONLINE</button>
-                <button type="button" selector="cooper-tire" class="btn btn-light">COOPER TIRES</button>
-                <button type="button" selector="falken-tires" class="btn btn-light">FALKEN TIRES</button>
-                <button type="button" selector="kenda-tires" class="btn btn-light">KENDA TIRE</button>
-                <button type="button" selector="maxxis" class="btn btn-light">MAXXIS</button>
-                <button type="button" selector="race-pol-ktm" class="btn btn-light">RACEDRIVEN POLARIS KTM</button>
-                <button type="button" selector="racequip" class="btn btn-light">RACEQUIP</button>
+            <div id="filterOptions" class="text-center w-75 collapse">
+                <button type="button" selector="all" class="btn sp-btn">ALL</button>
+                <button type="button" selector="amsol" class="btn sp-btn">AMSOL</button>
+                <button type="button" selector="bilstein" class="btn sp-btn">BILSTEIN</button>
+                <button type="button" selector="chirs-car-online" class="btn sp-btn">CHRISTIAN CARS ONLINE</button>
+                <button type="button" selector="cooper-tire" class="btn sp-btn">COOPER TIRES</button>
+                <button type="button" selector="falken-tires" class="btn sp-btn">FALKEN TIRES</button>
+                <button type="button" selector="kenda-tires" class="btn sp-btn">KENDA TIRE</button>
+                <button type="button" selector="maxxis" class="btn sp-btn">MAXXIS</button>
+                <button type="button" selector="race-pol-ktm" class="btn sp-btn">RACEDRIVEN POLARIS KTM</button>
+                <button type="button" selector="racequip" class="btn sp-btn">RACEQUIP</button>
 
-                <button type="button" selector="rival-moto" class="btn btn-light">RIVAL MOTORSPORTS/ CAN-AM</button>
-                <button type="button" selector="rugged-radio" class="btn btn-light">RUGGED RADIOS</button>
-                <button type="button" selector="sponsors" class="btn btn-light">SPONSORS</button>
-                <button type="button" selector="toyo-tires" class="btn btn-light">TOYO TIRES</button>
-                <button type="button" selector="air-force" class="btn btn-light">U.S AIR FORCE</button>
-                <button type="button" selector="yokohama" class="btn btn-light">YOKOHAMA</button>
-                <button type="button" selector="zie-cat" class="btn btn-light">ZIEGLER CAT</button>
+                <button type="button" selector="rival-moto" class="btn sp-btn">RIVAL MOTORSPORTS/ CAN-AM</button>
+                <button type="button" selector="rugged-radio" class="btn sp-btn">RUGGED RADIOS</button>
+                <button type="button" selector="sponsors" class="btn sp-btn">SPONSORS</button>
+                <button type="button" selector="toyo-tires" class="btn sp-btn">TOYO TIRES</button>
+                <button type="button" selector="air-force" class="btn sp-btn">U.S AIR FORCE</button>
+                <button type="button" selector="yokohama" class="btn sp-btn">YOKOHAMA</button>
+                <button type="button" selector="zie-cat" class="btn sp-btn">ZIEGLER CAT</button>
             </div>
         </div>
 
