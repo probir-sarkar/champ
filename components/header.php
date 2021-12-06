@@ -1,3 +1,5 @@
+<div class=" py-4 container-fluid buttom-divider">
+</div>
 <nav class="navbar fixed-top navbar-expand-lg pt-lg-4 nav-bg-font" id="main-navbar">
   <!--  Show this only on mobile to medium screens  -->
   <div class="d-flex d-lg-none w-100 order-0">
@@ -79,7 +81,7 @@
                 FANS
               </a>
               <div class="dropdown-menu body-bg" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="<?php echo $path ?>#">Events</a>
+                <a class="dropdown-item" href="<?php echo $path ?>national-events.php">Events</a>
                 <a class="dropdown-item" href="<?php echo $path ?>#">Tickets</a>
                 <a class="dropdown-item" href="<?php echo $path ?>#">Live stream</a>
                 <a class="dropdown-item" href="<?php echo $path ?>#">On Demands</a>
@@ -97,8 +99,17 @@
         </div>
         <div class="col-lg-4 d-flex">
           <ul class="navbar-nav px-3">
-            <li class="nav-item ">
-              <a class="nav-link" href="<?php echo $path ?>social.php">social</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="<?php echo $path ?>social.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                social
+              </a>
+              <div class="dropdown-menu body-bg" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="<?php echo $path ?>#">Classes</a>
+                <a class="dropdown-item" href="https://www.instagram.com/champoffroad/"><i class="fab fa-instagram"></i>&nbsp Intagram</a>
+                <a class="dropdown-item" href="https://twitter.com/champsoffroad"><i class="fab fa-twitter-square"></i>&nbsp Twitter</a>
+                <a class="dropdown-item" href="https://www.youtube.com/channel/UCdPwzNEMXIVxpBJZEeWmJ2w"><i class="fab fa-youtube-square"></i>&nbsp YouTube</a>
+                <a class="dropdown-item" href="https://www.facebook.com/Championship-Off-Road-488210285321380/"><i class="fab fa-facebook-square"></i>&nbsp Facebook</a>
+              </div>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="<?php echo $path ?>sponsors.php">SPONSORS</a>
@@ -115,8 +126,7 @@
     <!--   Show this only lg screens and up   -->
   </div>
 </nav>
-<div class=" py-5 container-fluid buttom-divider">
-</div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
 

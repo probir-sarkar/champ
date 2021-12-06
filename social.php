@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php include 'components/header.php'; ?>
-    <div class="container-fluid" id="media-container">
+    <div class="container-fluid mt-5" id="media-container">
         <div class="row d-flex justify-content-center" style="overflow-x: clip;">
             <img src="bg/HEADER-org.jpg" class="img-zoom ">
             <h2 class="position-absolute mt-5 text-white">SOCIAL</h2>
