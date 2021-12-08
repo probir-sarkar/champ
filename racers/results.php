@@ -7,7 +7,7 @@ include 'root.php';
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Results | AMSOIL Championship Off-Road</title>
   <link rel="stylesheet" href="<?php echo $path ?>
 css\global-style.css">
 </head>

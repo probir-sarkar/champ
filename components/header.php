@@ -68,11 +68,11 @@
               <ul class="dropdown-menu body-bg " aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="<?php echo $path ?>#">Registration</a></li>
                 <li><a class="dropdown-item" href="<?php echo $path ?>racers/results.php">Results</a></li>
-                <li><a class="dropdown-item" href="<?php echo $path ?>#">Points</a></li>
-                <li><a class="dropdown-item" href="<?php echo $path ?>#">Payouts</a></li>
+                <li><a class="dropdown-item" href="<?php echo $path ?>racers/points.php">Points</a></li>
+                <li><a class="dropdown-item" href="<?php echo $path ?>racers/payouts.php">Payouts</a></li>
                 <li><a class="dropdown-item" href="<?php echo $path ?>#">FAQ</a></li>
-                <li><a class="dropdown-item" href="<?php echo $path ?>#">Rulebook</a></li>
-                <li><a class="dropdown-item" href="<?php echo $path ?>#">Lineups</a></li>
+                <li><a class="dropdown-item" href="<?php echo $path ?>racers/rulebook.php">Rulebook</a></li>
+                <li><a class="dropdown-item" href="<?php echo $path ?>racers/lineups.php">Lineups</a></li>
               </ul>
             </li>
             <!-- End of Dropdown level-1 -->

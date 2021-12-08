@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ERX Off-Road National | AMSOIL Championship Off-Road</title>
     <link rel="stylesheet" href="<?php echo $path; ?>css\events.css">
     <link rel="stylesheet" href="<?php echo $path; ?>
 css\global-style.css">
@@ -74,6 +74,10 @@ css\global-style.css">
     var id = "demo";
     </script>
     <!-- End of  Countdown -->
+    <?php
+    include '../components/divider.php';
+    include '../components/footer.php';
+    ?>
 </body>
 <script src="<?php echo $path; ?>js\countdown.js"></script>
 

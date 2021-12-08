@@ -323,3 +323,16 @@ transition: box-shadow .3s ease,color .3s ease,background-color .3s ease;
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
 }
+.payout-table table td {
+    border-top: 1px solid #1f1f1f;
+    padding: 0.5em 1em;
+}
+/* Rulebook CSS */
+#rulebook h2{
+  color: #656565;
+  font-size: 2.2rem;
+}
+#rulebook a{
+  text-decoration: none;
+  color: #e50e07;
+}

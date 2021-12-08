@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sponsors | AMSOL Championship Off-Road</title>
+    <title>Sponsors | AMSOIL Championship Off-Road</title>
     <?php include 'components/bootstrap.php';?>
     <link rel="stylesheet" href="css\global-style.css">
     <link rel="stylesheet" href="css\sponsors.css">
@@ -13,8 +13,8 @@
 
 <body>
     <?php include 'components/header.php'; ?>
-    <div class="col-lg-12 text-white">
-        <div class="text-center mt-5">
+    <div class="col-lg-12 text-white mt-5">
+        <div class="text-center pt-5 mt-5">
             <button class="btn sp-btn" type="button" data-toggle="collapse" data-target="#filterOptions" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-sort"></i> SORT SPONSORS</button>
         </div>
         <div class="row d-flex justify-content-center">

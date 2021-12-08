@@ -20,7 +20,7 @@
                 <a href="https://www.instagram.com/champoffroad/"><i class="fab fa-instagram-square h3"></i></a>
             </div>
             <div class="row mb-5 mt-3">
-                <img src="footer/LIVESTREAM_BANNER_19120.jpg" alt="">
+                <img src="<?php echo $path ?>footer/LIVESTREAM_BANNER_19120.jpg" alt="">
             </div>
         </div>
     </footer>

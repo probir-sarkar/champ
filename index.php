@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>champoffroad</title>
+    <title>Amsoil Championship Off-Road | Amsoil Championship Off-Road</title>
     <meta charset="UTF-8" />
     <!-- Bootstrap CDN -->
 <?php include 'components/bootstrap.php';?>
